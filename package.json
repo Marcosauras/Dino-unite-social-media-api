@@ -1,0 +1,30 @@
+{
+  "name": "dino-unite-social-media-api",
+  "version": "1.0.0",
+  "description": "A social networking API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcosauras/Dino-unite-social-media-api.git"
+  },
+  "author": "Marc Hamilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcosauras/Dino-unite-social-media-api/issues"
+  },
+  "homepage": "https://github.com/Marcosauras/Dino-unite-social-media-api#readme"
+}
