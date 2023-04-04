@@ -1,3 +1,4 @@
+// got help from Mark, and Kelly for fixing my thought controllers
 const { Thought, User } = require("../models");
 
 module.exports = {
